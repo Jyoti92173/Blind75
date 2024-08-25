@@ -28,7 +28,7 @@ public class ReverseVowels {
             return String.valueOf(word);
         }
     }
-    // Approach 2: This is also a Pointer approach but in this approach i used this some different way
+    // Approach 2: This is also a Pointer approach but in this approach i solved this question using Set.
     class Solution {
         public String reverseVowels(String s) {
             Set<Character> set = Set.of('a','e','i','o','u','A','E','I','O','U');
