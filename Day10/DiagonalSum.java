@@ -4,7 +4,7 @@ Only include the sum of all the elements on the primary diagonal and all the ele
 
 class DiagonalSum {
     public int diagonalSum1(int[][] mat) {
-		// Approach 1 : Brute Force ...
+		// Approach 1 : Using Brute Force ...
         int sum = 0;
         for( int i =0; i<mat.length; i++){
             for(int j = 0; j <mat.length; j++){
@@ -31,7 +31,7 @@ class DiagonalSum {
 	}
 	
 	public int diagonalSum3(int[][]mat){
-		// Approach 3 : Two Pointer 
+		// Approach 3 : Using Two Pointer 
 		if (mat == null || mat.length == 0){
 			return 0;
 		  }
