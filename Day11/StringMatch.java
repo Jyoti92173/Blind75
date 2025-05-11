@@ -3,6 +3,7 @@ A substring is a contiguous sequence of characters within a string.*/
 
 class StringMatch {
     public  static List<String> stringMatching(String[] words) {
+		// Approach : Using array 
         List<String> result = new ArrayList<>();
         for(int i = 0; i<words.length; i++){
             for(int j = 0; j<words.length; j++){
